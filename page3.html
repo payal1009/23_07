@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Filter Items and Delete</title>
+</head>
+<body>
+    <h1>Update Password</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd">
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
